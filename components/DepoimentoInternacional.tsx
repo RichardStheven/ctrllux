@@ -12,13 +12,13 @@ export default function DepoimentoInternacional() {
           📍 Fort Lauderdale, FL – USA — Jackson Consulting
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-            "O marketing só deu certo quando virou código."
+            O marketing só deu certo quando virou código.
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed">
-            "Trabalhamos com agências de marketing por quase 6 anos. Todas focavam em postagens bonitas e promessas vazias. Depois de tanto tempo usando plataformas como Wix e WordPress, achávamos que o problema era nosso produto."
+            Trabalhamos com agências de marketing por quase 6 anos. Todas focavam em postagens bonitas e promessas vazias. Depois de tanto tempo usando plataformas como Wix e WordPress, achávamos que o problema era nosso produto.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
-            "Foi só com a Ctrl+Lux que entendemos o que faltava: <span className='italic'>engenharia digital</span>. Eles reescreveram nosso site do zero, nos colocaram no mapa do Google em menos de 2 meses e transformaram o que era um site em uma máquina de conversão real."
+            "Foi só com a Ctrl+Lux que entendemos o que faltava: <span className='italic'>engenharia digital</span>. Eles reescreveram nosso site do zero, nos colocaram no mapa do Google em menos de 2 meses e transformaram o que era um site em uma máquina de conversão real.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
             Hoje, mais de 40% dos nossos novos contratos vêm direto de buscas orgânicas. Nunca mais voltamos a usar construtores.
@@ -27,7 +27,7 @@ export default function DepoimentoInternacional() {
             — Carol Jackson, CEO da Jackson Consulting
           </div>
           <div className="text-green-600 font-medium mt-2">
-            "Agora o marketing da nossa empresa tem base técnica. E resultado."
+            Agora o marketing da nossa empresa tem base técnica. E resultado.
           </div>
         </div>
 
