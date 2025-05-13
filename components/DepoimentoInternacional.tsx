@@ -34,7 +34,7 @@ export default function DepoimentoInternacional() {
         {/* Imagem da CEO */}
         <div className="relative w-full h-[450px] rounded-xl overflow-hidden shadow-lg">
           <Image
-            src="/1.png"
+            src="/carol.png"
             alt="Carol Jackson - CEO"
             fill
             className="object-cover grayscale"

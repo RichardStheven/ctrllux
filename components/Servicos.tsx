@@ -20,7 +20,7 @@ export default function Servicos() {
           <div className="bg-gray-50 rounded-xl p-6 text-center shadow-sm">
             <div className="mb-4 flex justify-center">
               <Image
-                src="/icons/performance.png"
+                src="/r1.png"
                 alt="Performance"
                 width={50}
                 height={50}
@@ -43,7 +43,7 @@ export default function Servicos() {
           <div className="bg-gray-50 rounded-xl p-6 text-center shadow-sm">
             <div className="mb-4 flex justify-center">
               <Image
-                src="/icons/dev.png"
+                src="/r2.png"
                 alt="Desenvolvimento"
                 width={50}
                 height={50}
@@ -66,7 +66,7 @@ export default function Servicos() {
           <div className="bg-gray-50 rounded-xl p-6 text-center shadow-sm">
             <div className="mb-4 flex justify-center">
               <Image
-                src="/icons/branding.png"
+                src="/r3.png"
                 alt="Branding"
                 width={50}
                 height={50}

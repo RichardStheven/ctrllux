@@ -5,11 +5,11 @@ import { motion, useScroll, useTransform, useSpring } from 'framer-motion'
 import Image from 'next/image'
 
 const logos = [
-  '/logo.svg',
-  '/logo.svg',
-  '/logo.svg',
-  '/logo.svg',
-  '/logo.svg',
+  '/l9.svg.png',
+  '/l2.webp',
+  '/l3.svg',
+  '/l6.png',
+  '/l5.jpg',
 ]
 
 export default function CarrosselImersivo() {
