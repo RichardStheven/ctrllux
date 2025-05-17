@@ -2,11 +2,11 @@
 
 import CodeGhost from '../components/CodeGhost'
 
-
 export default function Proposito() {
   return (
     <section className="relative bg-gradient-to-b from-white via-gray-50 to-white py-24 px-6 md:px-20 text-black overflow-hidden">
- <CodeGhost />     
+      <CodeGhost />
+
       {/* Fundo animado sutil */}
       <div className="absolute inset-0 bg-[url('/bg1.png')] bg-contain bg-no-repeat opacity-5 pointer-events-none" />
 
@@ -24,9 +24,14 @@ export default function Proposito() {
         </p>
 
         <div className="mt-10">
-          <button className="bg-black text-white px-8 py-4 rounded hover:bg-gray-900 transition">
+          <a
+            href="https://wa.me/5511947375915?text=Olá%2C%20gostaria%20de%20um%20diagnóstico%20gratuito%20do%20meu%20site%20com%20a%20Ctrl%2BLux."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-black text-white px-8 py-4 rounded hover:bg-gray-900 transition"
+          >
             Solicitar diagnóstico gratuito
-          </button>
+          </a>
         </div>
       </div>
     </section>

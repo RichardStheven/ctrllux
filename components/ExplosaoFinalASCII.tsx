@@ -20,7 +20,7 @@ const nomesAlternativos = [
   '</XՈ⅂⅂ꓤꓕϽ',
 ]
 
-const whatsappURL = 'https://wa.me/5511999999999' // seu número real aqui
+const whatsappURL = 'https://wa.me/5511947375915'
 
 export default function ExplosaoFinal() {
   const [explode, setExplode] = useState(false)
@@ -44,7 +44,6 @@ export default function ExplosaoFinal() {
 
   return (
     <section className="relative bg-black text-white min-h-screen flex flex-col items-center justify-center overflow-hidden">
-      {/* Frase central */}
       {!explode && (
         <motion.p
           className="text-center text-lg md:text-xl px-4 max-w-2xl mb-4 font-light text-white/70"
@@ -56,7 +55,6 @@ export default function ExplosaoFinal() {
         </motion.p>
       )}
 
-      {/* Nome alternativo piscando */}
       {!explode && (
         <motion.div
           className="text-2xl md:text-3xl font-mono text-white/60 mb-4"
@@ -70,7 +68,6 @@ export default function ExplosaoFinal() {
         </motion.div>
       )}
 
-      {/* ASCII animado */}
       <div className="relative w-full flex flex-col items-center font-mono text-xs md:text-base whitespace-pre leading-tight z-0">
         <AnimatePresence>
           {!explode &&
@@ -93,7 +90,6 @@ export default function ExplosaoFinal() {
         </AnimatePresence>
       </div>
 
-      {/* Botão de explosão */}
       {!explode && (
         <motion.button
           onClick={handleClick}

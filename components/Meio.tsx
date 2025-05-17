@@ -38,9 +38,14 @@ export default function CarrosselImersivo() {
           personalizadas, com foco em performance real, SEO técnico e
           interfaces sob medida.
         </p>
-        <button className="mt-8 bg-[#34A853] text-white px-6 py-3 rounded-md hover:bg-[#2e9347] transition-all">
+        <a
+          href="https://wa.me/5511947375915?text=Olá%2C%20gostaria%20de%20pedir%20um%20diagnóstico%20digital%20com%20a%20Ctrl%2BLux."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-8 inline-block bg-[#34A853] text-white px-6 py-3 rounded-md hover:bg-[#2e9347] transition-all"
+        >
           Peça um Diagnóstico
-        </button>
+        </a>
       </div>
 
       {/* Carrossel hipnótico (desktop) */}

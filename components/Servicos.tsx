@@ -17,7 +17,12 @@ export default function Servicos() {
         {/* GRADE DE SERVIÇOS */}
         <div className="md:col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-5 -mt-16 md:-mt-5">
           {/* PERFORMANCE */}
-          <div className="bg-gray-50 rounded-xl p-6 text-center shadow-sm">
+          <a
+            href="https://wa.me/5511947375915"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gray-50 rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-all"
+          >
             <div className="mb-4 flex justify-center">
               <Image
                 src="/r1.png"
@@ -37,10 +42,15 @@ export default function Servicos() {
               <li>Marketing de Conteúdo</li>
               <li>Redes Sociais</li>
             </ul>
-          </div>
+          </a>
 
           {/* DESENVOLVIMENTO */}
-          <div className="bg-gray-50 rounded-xl p-6 text-center shadow-sm">
+          <a
+            href="https://wa.me/5511947375915"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gray-50 rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-all"
+          >
             <div className="mb-4 flex justify-center">
               <Image
                 src="/r2.png"
@@ -60,10 +70,15 @@ export default function Servicos() {
               <li>Email Marketing</li>
               <li>Hospedagem e domínio</li>
             </ul>
-          </div>
+          </a>
 
           {/* BRANDING */}
-          <div className="bg-gray-50 rounded-xl p-6 text-center shadow-sm">
+          <a
+            href="https://wa.me/5511947375915"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gray-50 rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-all"
+          >
             <div className="mb-4 flex justify-center">
               <Image
                 src="/r3.png"
@@ -83,7 +98,7 @@ export default function Servicos() {
               <li>E-book / Apresentação</li>
               <li>Papelaria Corporativa</li>
             </ul>
-          </div>
+          </a>
         </div>
       </div>
     </section>

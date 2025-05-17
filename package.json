@@ -9,14 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^2.2.3",
+    "@react-three/drei": "^10.0.7",
+    "@react-three/fiber": "^9.1.2",
+    "@react-three/rapier": "^2.1.0",
     "@svgr/webpack": "^8.1.0",
-    "framer-motion": "^12.7.3",
-    "gsap": "^3.12.7",
+    "animejs": "^4.0.2",
+    "app.css": "^0.1.2",
+    "framer-motion": "^12.11.0",
+    "gsap": "^3.13.0",
+    "lucide-react": "^0.511.0",
+    "meshline": "^3.3.1",
+    "motion": "^12.12.1",
     "next": "15.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-intersection-observer": "^9.16.0",
-    "react-use": "^17.6.0"
+    "react-use": "^17.6.0",
+    "three": "^0.176.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

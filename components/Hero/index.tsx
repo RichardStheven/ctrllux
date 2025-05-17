@@ -21,9 +21,14 @@ export default function Hero() {
           <h1 className="text-3xl md:text-5xl font-bold max-w-xl leading-snug">
             A gente faz o Google se apaixonar pela tua existência.
           </h1>
-          <button className="mt-6 bg-black text-white px-6 py-3 rounded hover:bg-gray-900 transition-all">
+          <a
+            href="https://wa.me/5511947375915"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 bg-black text-white px-6 py-3 rounded hover:bg-gray-900 transition-all"
+          >
             Quero aparecer no Google
-          </button>
+          </a>
         </div>
       </div>
 
