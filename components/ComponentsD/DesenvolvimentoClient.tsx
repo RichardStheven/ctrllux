@@ -16,6 +16,7 @@ import ModalD4 from '../../components/ComponentsD/ModalD4'
 import ModalD5 from '../../components/ComponentsD/ModalD5'
 import ModalD6 from '../../components/ComponentsD/ModalD6'
 import ModalD7 from '../../components/ComponentsD/ModalD7'
+import Footer from '../../components/Footer'
 
 export default function DesenvolvimentoClient() {
   return (
@@ -34,7 +35,9 @@ export default function DesenvolvimentoClient() {
       <LinhaScrollVertical />
       <CustomCursor />
       <Meio />
+
       <ExplosaoFinalASCII />
+      <Footer />
     </main>
   )
 }

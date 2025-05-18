@@ -11,6 +11,7 @@ import ModalP2 from '../../components/ComponentsP/ModalP2'
 import ModalP3 from '../../components/ComponentsP/ModalP3'
 import ModalP4 from '../../components/ComponentsP/ModalP4'
 import ModalP5 from '../../components/ComponentsP/ModalP5'
+import Footer from '../../components/Footer'
 
 export default function PerformanceContent() {
   return (
@@ -26,6 +27,7 @@ export default function PerformanceContent() {
       <CustomCursor />
       <Meio />
       <ExplosaoFinalASCII />
+      <Footer />
     </main>
   )
 }

@@ -13,6 +13,7 @@ import LinhaScrollVertical from '../components/LinhaScrollVertical'
 import Meio from '../components/Meio'
 import Skills from '../components/Skills'
 import ExplosaoFinalASCII from '../components/ExplosaoFinalASCII'
+import Footer from '../components/Footer'
 
 export default function HomeClient() {
   return (
@@ -29,6 +30,7 @@ export default function HomeClient() {
       <Meio />
       <Skills />
       <ExplosaoFinalASCII />
+      <Footer />
     </main>
   )
 }

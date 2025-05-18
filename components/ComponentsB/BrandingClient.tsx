@@ -13,6 +13,7 @@ import ModalB2 from '../../components/ComponentsB/ModalB2'
 import ComponenteCesar from '../../components/ComponentsB/ComponenteCesar'
 import ModalB3 from '../../components/ComponentsB/ModalB3'
 import ModalB4 from '../../components/ComponentsB/ModalB4'
+import Footer from '../../components/Footer'
 
 export default function BrandingClient() {
   return (
@@ -29,6 +30,7 @@ export default function BrandingClient() {
       <CustomCursor />
       <Meio />
       <ExplosaoFinalASCII />
+      <Footer />
     </main>
   )
 }
