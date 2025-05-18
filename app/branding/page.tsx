@@ -1,45 +1,37 @@
-'use client'
+// app/branding/page.tsx
 
-import Header from '../../components/Header'
-import LinhaRedonda from '../../components/LinhaRedonda'
-import CustomCursor from '../../components/CustomCursor/CustomCursor'
-import LinhaScrollVertical from '../../components/LinhaScrollVertical'
-import Meio from '../../components/Meio'
-import ExplosaoFinal from '../../components/ExplosaoFinalASCII'
-import ExplosaoFinalASCII from '../../components/ExplosaoFinalASCII'
-import HeroB from '../../components/ComponentsB/HeroB';
-import ModalB1 from '../../components/ComponentsB/ModalB1';
-import ModalB2 from '../../components/ComponentsB/ModalB2';
-import ComponenteCesar from '../../components/ComponentsB/ComponenteCesar';
-import ModalB3 from '../../components/ComponentsB/ModalB3';
-import ModalB4 from '../../components/ComponentsB/ModalB4';
-import Lanyard from '../../components/ComponentsB/Lanyard';
+import BrandingClient from '../../components/ComponentsB/BrandingClient'
 
+export const metadata = {
+  title: 'Branding digital com impacto visual e alma criativa | Ctrl+Lux',
+  description:
+    'Criamos marcas que se destacam: identidade visual, conceito e presença digital com estética sofisticada. Branding com propósito e performance.',
+  keywords: [
+    'branding digital',
+    'identidade visual',
+    'criação de marca',
+    'posicionamento de marca',
+    'branding para site',
+    'Ctrl+Lux',
+  ],
+  openGraph: {
+    title: 'Branding digital com impacto visual e alma criativa | Ctrl+Lux',
+    description:
+      'Marcas com propósito e performance. Design estratégico e comunicação que conecta. Ctrl+Lux: branding que transforma.',
+    url: 'https://ctrllux.vercel.app/branding',
+    siteName: 'Ctrl+Lux',
+    images: [
+      {
+        url: '/og-branding.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Ctrl+Lux - Branding Digital',
+      },
+    ],
+    type: 'website',
+  },
+}
 
-
-
-
-
-export default function Home() {
-  return (
-    <main className="bg-white min-h-screen text-black">
-     
-      <Header />
-      <LinhaRedonda />
-      <HeroB />
-      <ModalB1 />
-      <ModalB2 />
-      <ComponenteCesar />
-      <ModalB3 />
-      <ModalB4 />
-      <Lanyard/>
-
-
-      <LinhaScrollVertical />
-      <CustomCursor />
-      <Meio />
-
-      <ExplosaoFinalASCII />
-    </main>
-  )
+export default function Page() {
+  return <BrandingClient />
 }

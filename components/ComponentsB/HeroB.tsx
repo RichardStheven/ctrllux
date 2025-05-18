@@ -25,9 +25,13 @@ export default function HeroB() {
       </div>
 
       {/* ESPAÇO PARA ILUSTRAÇÃO OU ICONE */}
-      <div className="mt-12 md:mt-0 w-full md:w-[40%] h-[250px] bg-white border border-neutral-200 rounded-lg flex items-center justify-center">
-        <span className="text-neutral-400 text-sm font-mono">[ imagem ou arte opcional ]</span>
-      </div>
+      <div className="mt-12 md:mt-0 w-full md:w-[100%] h-[450px] bg-white border border-neutral-200 rounded-lg overflow-hidden">
+  <img
+    src="/mc1.png"
+    alt="Exemplo de projeto Ctrl+Lux"
+    className="w-full h-full object-cover"
+  />
+</div>
     </section>
   );
 }
