@@ -22,7 +22,30 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <head />
+      <head>
+        {/* Schema.org para exibir o logo na busca do Google */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Ctrl+Lux",
+              "url": "https://www.ctrllux.art",
+              "logo": "https://www.ctrllux.art/logo.png",
+              "sameAs": [
+                "https://www.instagram.com/seuperfil",
+                "https://www.linkedin.com/company/seuperfil"
+              ],
+            }),
+          }}
+        />
+        {/* Open Graph para imagem de link e social */}
+        <meta property="og:image" content="https://www.ctrllux.art/logo.png" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="400" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
