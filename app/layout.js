@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Script from "next/script"; // IMPORTANTE
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,7 +16,7 @@ export const metadata = {
   title: "Ctrl+Lux – Sites, Branding e Performance Digital",
   description: "Agência digital que une design, tecnologia e resultado.",
   icons: {
-    icon: "/favicon.ico", // Caminho para seu novo ícone
+    icon: "/favicon.ico",
   },
 };
 
@@ -23,6 +24,20 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <head>
+        {/* Google Ads Tag (gtag.js) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16882542334"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-16882542334');
+          `}
+        </Script>
+
         {/* Schema.org para exibir o logo na busca do Google */}
         <script
           type="application/ld+json"
@@ -40,6 +55,7 @@ export default function RootLayout({ children }) {
             }),
           }}
         />
+
         {/* Open Graph para imagem de link e social */}
         <meta property="og:image" content="https://www.ctrllux.art/logo.png" />
         <meta property="og:image:type" content="image/png" />
