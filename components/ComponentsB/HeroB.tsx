@@ -16,7 +16,7 @@ export default function HeroB() {
         </p>
 
         <Link
-          href="https://wa.me/5511940359451"
+          href="https://wa.me/5511947375915"
           target="_blank"
           className="mt-8 inline-block px-6 py-3 border border-black text-black rounded hover:bg-black hover:text-white transition font-mono text-sm"
         >
